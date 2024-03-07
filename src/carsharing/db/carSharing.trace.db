@@ -1,0 +1,422 @@
+2024-03-05 15:47:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS COMPANY(ID  INTEGER PRIMARY KEY AUTO_INCREMENT,  NAME  VARCHAR(255) UNIQUE NOT NULL[*]"; expected "COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS COMPANY(ID  INTEGER PRIMARY KEY AUTO_INCREMENT,  NAME  VARCHAR(255) UNIQUE NOT NULL [42001-200]
+2024-03-05 15:49:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS COMPANY(ID  INTEGER PRIMARY KEY AUTO_INCREMENT,  NAME  VARCHAR(255) UNIQUE NOT NULL[*]"; expected "COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS COMPANY(ID  INTEGER PRIMARY KEY AUTO_INCREMENT,  NAME  VARCHAR(255) UNIQUE NOT NULL [42001-200]
+2024-03-05 15:51:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS COMPANY(ID  INTEGER PRIMARY KEY AUTO_INCREMENT,  NAME  VARCHAR(255) UNIQUE NOT NULL[*]"; expected "COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS COMPANY(ID  INTEGER PRIMARY KEY AUTO_INCREMENT,  NAME  VARCHAR(255) UNIQUE NOT NULL [42001-200]
+2024-03-05 16:25:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: This method is not allowed for a prepared statement; use a regular statement instead. [90130-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcPreparedStatement.executeQuery(JdbcPreparedStatement.java:290)
+	at carsharing.server.dao.company.CompanyDaoImpl.getAllCompanies(CompanyDaoImpl.java:18)
+	at carsharing.client.repositories.CompanyRepo.listCompanies(CompanyRepo.java:20)
+	at carsharing.client.UserInterface.loginCommand(UserInterface.java:43)
+	at carsharing.client.UserInterface.commandLoop(UserInterface.java:27)
+	at carsharing.Main.main(Main.java:14)
+2024-03-05 16:37:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: This method is not allowed for a prepared statement; use a regular statement instead. [90130-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcPreparedStatement.executeQuery(JdbcPreparedStatement.java:290)
+	at carsharing.server.dao.company.CompanyDaoImpl.getAllCompanies(CompanyDaoImpl.java:18)
+	at carsharing.client.repositories.CompanyRepo.listCompanies(CompanyRepo.java:20)
+	at carsharing.client.UserInterface.loginCommand(UserInterface.java:43)
+	at carsharing.client.UserInterface.commandLoop(UserInterface.java:27)
+	at carsharing.Main.main(Main.java:14)
+2024-03-05 16:38:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: This method is not allowed for a prepared statement; use a regular statement instead. [90130-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcPreparedStatement.executeQuery(JdbcPreparedStatement.java:290)
+	at carsharing.server.dao.company.CompanyDaoImpl.getAllCompanies(CompanyDaoImpl.java:18)
+	at carsharing.client.repositories.CompanyRepo.listCompanies(CompanyRepo.java:20)
+	at carsharing.client.UserInterface.loginCommand(UserInterface.java:43)
+	at carsharing.client.UserInterface.commandLoop(UserInterface.java:27)
+	at carsharing.Main.main(Main.java:14)
+2024-03-05 16:39:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: This method is not allowed for a prepared statement; use a regular statement instead. [90130-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcPreparedStatement.executeQuery(JdbcPreparedStatement.java:290)
+	at carsharing.server.dao.company.CompanyDaoImpl.getAllCompanies(CompanyDaoImpl.java:18)
+	at carsharing.client.repositories.CompanyRepo.listCompanies(CompanyRepo.java:20)
+	at carsharing.client.UserInterface.loginCommand(UserInterface.java:43)
+	at carsharing.client.UserInterface.commandLoop(UserInterface.java:27)
+	at carsharing.Main.main(Main.java:14)
+2024-03-05 16:55:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "ALTER TABLE COMPANY AUTO_INCREMENT[*]=1001;"; expected "., ADD, SET, RENAME, DROP, ALTER"; SQL statement:
+ALTER TABLE COMPANY AUTO_INCREMENT=1001; [42001-200]
+2024-03-05 16:56:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "ALTER TABLE COMPANY AUTO_INCREMENT[*]=1;"; expected "., ADD, SET, RENAME, DROP, ALTER"; SQL statement:
+ALTER TABLE COMPANY AUTO_INCREMENT=1; [42001-200]
+2024-03-05 16:57:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "ALTER TABLE COMPANY AUTO_INCREMENT[*]=1001;"; expected "., ADD, SET, RENAME, DROP, ALTER"; SQL statement:
+ALTER TABLE COMPANY AUTO_INCREMENT=1001; [42001-200]
+2024-03-05 16:58:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "ALTER TABLE COMPANY AUTO_INCREMENT[*]=1001;"; expected "., ADD, SET, RENAME, DROP, ALTER"; SQL statement:
+ALTER TABLE COMPANY AUTO_INCREMENT=1001; [42001-200]
+2024-03-05 17:00:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS COMPANY(ID  INTEGER PRIMARY KEY AUTO_INCREMENT,  NAME  VARCHAR(255) UNIQUE NOT NULL) AUTO_INCREMENT[*] = 1;"; SQL statement:
+CREATE TABLE IF NOT EXISTS COMPANY(ID  INTEGER PRIMARY KEY AUTO_INCREMENT,  NAME  VARCHAR(255) UNIQUE NOT NULL) AUTO_INCREMENT = 1; [42000-200]
+2024-03-05 18:55:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Parameter "#2" is not set; SQL statement:
+INSERT INTO company (ID, NAME) VALUES (?,?) [90012-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:83)
+	at org.h2.command.Prepared.checkParameters(Prepared.java:182)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:187)
+	at org.h2.command.Command.executeUpdate(Command.java:251)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:191)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:152)
+	at carsharing.server.dao.company.CompanyDaoImpl.setPrimaryKeyValue(CompanyDaoImpl.java:83)
+	at carsharing.server.dao.company.CompanyDaoImpl.setConnectionCreateTable(CompanyDaoImpl.java:94)
+	at carsharing.client.repositories.CompanyRepo.setConnectionCreateTable(CompanyRepo.java:38)
+	at carsharing.server.database.DatabaseConnection.lambda$setConnectionOfDaos$0(DatabaseConnection.java:42)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at carsharing.server.database.DatabaseConnection.setConnectionOfDaos(DatabaseConnection.java:42)
+	at carsharing.client.UserInterface.<init>(UserInterface.java:20)
+	at carsharing.Main.main(Main.java:13)
+2024-03-05 19:21:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column count does not match; SQL statement:
+INSERT INTO COMPANY (ID, NAME) VALUES (?) [21002-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.command.dml.Insert.prepare(Insert.java:319)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:352)
+	at carsharing.server.dao.company.CompanyDaoImpl.createCompany(CompanyDaoImpl.java:54)
+	at carsharing.client.repositories.CompanyRepo.createCompany(CompanyRepo.java:31)
+	at carsharing.client.UserInterface.loginCommand(UserInterface.java:45)
+	at carsharing.client.UserInterface.commandLoop(UserInterface.java:27)
+	at carsharing.Main.main(Main.java:14)
+2024-03-05 19:24:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Parameter "#1" is not set; SQL statement:
+INSERT INTO COMPANY (NAME) VALUES (?) [90012-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:83)
+	at org.h2.command.Prepared.checkParameters(Prepared.java:182)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:187)
+	at org.h2.command.Command.executeUpdate(Command.java:251)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:168)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.server.dao.company.CompanyDaoImpl.createCompany(CompanyDaoImpl.java:55)
+	at carsharing.client.repositories.CompanyRepo.createCompany(CompanyRepo.java:31)
+	at carsharing.client.UserInterface.loginCommand(UserInterface.java:45)
+	at carsharing.client.UserInterface.commandLoop(UserInterface.java:27)
+	at carsharing.Main.main(Main.java:14)
+2024-03-05 20:35:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "COMPANY_ID" not found; SQL statement:
+CREATE TABLE IF NOT EXISTS CAR(ID INTEGER PRIMARY KEY AUTO_INCREMENT,  NAME  VARCHAR(255) UNIQUE NOT NULL, COMPANY_ID INT,  CONSTRAINT fk_car FOREIGN KEY (COMPANY_ID) REFERENCES COMPANY(COMPANY_ID)); [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.table.Table.getColumn(Table.java:703)
+	at org.h2.table.IndexColumn.mapColumns(IndexColumn.java:115)
+	at org.h2.command.ddl.AlterTableAddConstraint.tryUpdate(AlterTableAddConstraint.java:231)
+	at org.h2.command.ddl.AlterTableAddConstraint.update(AlterTableAddConstraint.java:78)
+	at org.h2.command.ddl.CommandWithColumns.createConstraints(CommandWithColumns.java:83)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:133)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:198)
+	at org.h2.command.Command.executeUpdate(Command.java:251)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:168)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.server.dao.car.CarDaoImpl.createTable(CarDaoImpl.java:79)
+	at carsharing.server.dao.car.CarDaoImpl.setConnectionCreateTable(CarDaoImpl.java:100)
+	at carsharing.client.repositories.CarRepo.setConnectionCreateTable(CarRepo.java:46)
+	at carsharing.server.database.DatabaseConnection.lambda$setConnectionOfDaos$0(DatabaseConnection.java:42)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at carsharing.server.database.DatabaseConnection.setConnectionOfDaos(DatabaseConnection.java:42)
+	at carsharing.client.UserInterface.<init>(UserInterface.java:24)
+	at carsharing.Main.main(Main.java:13)
+2024-03-06 14:02:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Constraint "FK_CAR" already exists; SQL statement:
+CREATE TABLE IF NOT EXISTS CUSTOMER(ID INTEGER PRIMARY KEY AUTO_INCREMENT,  NAME  VARCHAR(255) UNIQUE NOT NULL, RENTED_CAR_ID INTEGER,  CONSTRAINT fk_car FOREIGN KEY (RENTED_CAR_ID) REFERENCES CAR(ID)); [90045-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:576)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.command.ddl.AlterTableAddConstraint.tryUpdate(AlterTableAddConstraint.java:114)
+	at org.h2.command.ddl.AlterTableAddConstraint.update(AlterTableAddConstraint.java:78)
+	at org.h2.command.ddl.CommandWithColumns.createConstraints(CommandWithColumns.java:83)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:133)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:198)
+	at org.h2.command.Command.executeUpdate(Command.java:251)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:168)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.server.dao.customer.CustomerDaoImpl.createTable(CustomerDaoImpl.java:127)
+	at carsharing.server.dao.customer.CustomerDaoImpl.setConnectionCreateTable(CustomerDaoImpl.java:148)
+	at carsharing.client.repositories.CustomerRepo.setConnectionCreateTable(CustomerRepo.java:53)
+	at carsharing.server.database.DatabaseConnection.lambda$setConnectionOfDaos$0(DatabaseConnection.java:42)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at carsharing.server.database.DatabaseConnection.setConnectionOfDaos(DatabaseConnection.java:42)
+	at carsharing.client.UserInterface.<init>(UserInterface.java:31)
+	at carsharing.Main.main(Main.java:13)
+2024-03-06 14:04:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "RENTED_CAR_ID" not found; SQL statement:
+INSERT INTO CAR (NAME, RENTED_CAR_ID) VALUES (?,?); [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.table.Table.getColumn(Table.java:703)
+	at org.h2.command.Parser.parseColumn(Parser.java:1450)
+	at org.h2.command.Parser.parseColumnList(Parser.java:1435)
+	at org.h2.command.Parser.parseInsertGivenTable(Parser.java:1804)
+	at org.h2.command.Parser.parseInsert(Parser.java:1749)
+	at org.h2.command.Parser.parsePrepared(Parser.java:954)
+	at org.h2.command.Parser.parse(Parser.java:843)
+	at org.h2.command.Parser.parse(Parser.java:815)
+	at org.h2.command.Parser.prepareCommand(Parser.java:738)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:352)
+	at carsharing.server.dao.customer.CustomerDaoImpl.create(CustomerDaoImpl.java:103)
+	at carsharing.client.repositories.CustomerRepo.createCustomer(CustomerRepo.java:37)
+	at carsharing.client.UserInterface.createCustomer(UserInterface.java:47)
+	at carsharing.client.UserInterface.commandLoop(UserInterface.java:40)
+	at carsharing.Main.main(Main.java:14)
+2024-03-06 14:05:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "RENTED_CAR_ID" not found; SQL statement:
+INSERT INTO CAR (NAME, RENTED_CAR_ID) VALUES (?,?); [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.table.Table.getColumn(Table.java:703)
+	at org.h2.command.Parser.parseColumn(Parser.java:1450)
+	at org.h2.command.Parser.parseColumnList(Parser.java:1435)
+	at org.h2.command.Parser.parseInsertGivenTable(Parser.java:1804)
+	at org.h2.command.Parser.parseInsert(Parser.java:1749)
+	at org.h2.command.Parser.parsePrepared(Parser.java:954)
+	at org.h2.command.Parser.parse(Parser.java:843)
+	at org.h2.command.Parser.parse(Parser.java:815)
+	at org.h2.command.Parser.prepareCommand(Parser.java:738)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:352)
+	at carsharing.server.dao.customer.CustomerDaoImpl.create(CustomerDaoImpl.java:103)
+	at carsharing.client.repositories.CustomerRepo.createCustomer(CustomerRepo.java:37)
+	at carsharing.client.UserInterface.createCustomer(UserInterface.java:47)
+	at carsharing.client.UserInterface.commandLoop(UserInterface.java:40)
+	at carsharing.Main.main(Main.java:14)
+2024-03-06 14:21:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "RENTED_CAR_ID" not found; SQL statement:
+UPDATE CAR SET RENTED_CAR_ID = ? VALUES WHERE ID = ?; [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.table.Table.getColumn(Table.java:703)
+	at org.h2.command.Parser.readTableColumn(Parser.java:1274)
+	at org.h2.command.Parser.parseUpdateSetClause(Parser.java:1325)
+	at org.h2.command.Parser.parseUpdate(Parser.java:1290)
+	at org.h2.command.Parser.parsePrepared(Parser.java:1005)
+	at org.h2.command.Parser.parse(Parser.java:843)
+	at org.h2.command.Parser.parse(Parser.java:815)
+	at org.h2.command.Parser.prepareCommand(Parser.java:738)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:352)
+	at carsharing.server.dao.customer.CustomerDaoImpl.rentCar(CustomerDaoImpl.java:75)
+	at carsharing.client.repositories.CustomerRepo.rentCar(CustomerRepo.java:44)
+	at carsharing.client.UserInterface.rentCar(UserInterface.java:111)
+	at carsharing.client.UserInterface.customerCommandLoop(UserInterface.java:71)
+	at carsharing.client.UserInterface.loginAsCustomerCommandLoop(UserInterface.java:57)
+	at carsharing.client.UserInterface.commandLoop(UserInterface.java:39)
+	at carsharing.Main.main(Main.java:14)
+2024-03-06 17:35:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE CUSTOMER SET RENTED_CAR_ID = ? VALUES[*] WHERE ID = ?;"; SQL statement:
+UPDATE CUSTOMER SET RENTED_CAR_ID = ? VALUES WHERE ID = ?; [42000-200]
+2024-03-06 17:36:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE CUSTOMER SET RENTED_CAR_ID = ? VALUES[*] WHERE ID = ?;"; SQL statement:
+UPDATE CUSTOMER SET RENTED_CAR_ID = ? VALUES WHERE ID = ?; [42000-200]
+2024-03-06 17:37:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE CUSTOMER SET RENTED_CAR_ID = (?) VALUES[*] WHERE ID = (?);"; SQL statement:
+UPDATE CUSTOMER SET RENTED_CAR_ID = (?) VALUES WHERE ID = (?); [42000-200]
+2024-03-06 17:41:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE CUSTOMER SET RENTED_CAR_ID=? VALUES[*] WHERE ID=?;"; SQL statement:
+UPDATE CUSTOMER SET RENTED_CAR_ID=? VALUES WHERE ID=?; [42000-200]
+2024-03-06 17:44:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Cannot drop "CAR" because "FK_RENTED_CAR" depends on it; SQL statement:
+DROP TABLE CAR [90107-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:576)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.command.ddl.DropTable.prepareDrop(DropTable.java:98)
+	at org.h2.command.ddl.DropTable.update(DropTable.java:124)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:198)
+	at org.h2.command.Command.executeUpdate(Command.java:251)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:168)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.server.dao.car.CarDaoImpl.dropTable(CarDaoImpl.java:87)
+	at carsharing.client.repositories.CarRepo.dropCarTable(CarRepo.java:42)
+	at carsharing.client.UserInterface.exitCommand(UserInterface.java:147)
+	at carsharing.client.UserInterface.commandLoop(UserInterface.java:41)
+	at carsharing.Main.main(Main.java:14)
+2024-03-06 17:44:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Cannot drop "COMPANY" because "FK_CAR" depends on it; SQL statement:
+DROP TABLE COMPANY [90107-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:576)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.command.ddl.DropTable.prepareDrop(DropTable.java:98)
+	at org.h2.command.ddl.DropTable.update(DropTable.java:124)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:198)
+	at org.h2.command.Command.executeUpdate(Command.java:251)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:168)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.server.dao.company.CompanyDaoImpl.dropTable(CompanyDaoImpl.java:105)
+	at carsharing.client.repositories.CompanyRepo.dropCompanyTable(CompanyRepo.java:42)
+	at carsharing.client.UserInterface.exitCommand(UserInterface.java:148)
+	at carsharing.client.UserInterface.commandLoop(UserInterface.java:41)
+	at carsharing.Main.main(Main.java:14)
+2024-03-06 17:45:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Cannot drop "CAR" because "FK_RENTED_CAR" depends on it; SQL statement:
+DROP TABLE CAR [90107-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:576)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.command.ddl.DropTable.prepareDrop(DropTable.java:98)
+	at org.h2.command.ddl.DropTable.update(DropTable.java:124)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:198)
+	at org.h2.command.Command.executeUpdate(Command.java:251)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:168)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.server.dao.car.CarDaoImpl.dropTable(CarDaoImpl.java:87)
+	at carsharing.client.repositories.CarRepo.dropCarTable(CarRepo.java:42)
+	at carsharing.client.UserInterface.exitCommand(UserInterface.java:147)
+	at carsharing.client.UserInterface.commandLoop(UserInterface.java:41)
+	at carsharing.Main.main(Main.java:14)
+2024-03-06 17:49:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "ALTER TABLE CARDROP CONSTRAINT[*] FK_CAR;"; expected "., ADD, SET, RENAME, DROP, ALTER"; SQL statement:
+ALTER TABLE CARDROP CONSTRAINT fk_car; [42001-200]
+2024-03-06 17:50:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "ALTER CARDROP[*] CONSTRAINT FK_CAR;"; expected "TABLE, USER, INDEX, SCHEMA, SEQUENCE, VIEW"; SQL statement:
+ALTER CARDROP CONSTRAINT fk_car; [42001-200]
+2024-03-06 17:51:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Cannot drop "CAR" because "FK_RENTED_CAR" depends on it; SQL statement:
+DROP TABLE CAR [90107-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:576)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.command.ddl.DropTable.prepareDrop(DropTable.java:98)
+	at org.h2.command.ddl.DropTable.update(DropTable.java:124)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:198)
+	at org.h2.command.Command.executeUpdate(Command.java:251)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:168)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.server.dao.car.CarDaoImpl.dropTable(CarDaoImpl.java:90)
+	at carsharing.client.repositories.CarRepo.dropCarTable(CarRepo.java:42)
+	at carsharing.client.UserInterface.exitCommand(UserInterface.java:147)
+	at carsharing.client.UserInterface.commandLoop(UserInterface.java:41)
+	at carsharing.Main.main(Main.java:14)
+2024-03-06 17:52:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Constraint "FK_CAR" not found; SQL statement:
+ALTER TABLE CAR DROP CONSTRAINT fk_car; [90057-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:576)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.command.ddl.AlterTableDropConstraint.update(AlterTableDropConstraint.java:41)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:198)
+	at org.h2.command.Command.executeUpdate(Command.java:251)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:168)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.server.dao.car.CarDaoImpl.dropTable(CarDaoImpl.java:89)
+	at carsharing.client.repositories.CarRepo.dropCarTable(CarRepo.java:42)
+	at carsharing.client.UserInterface.exitCommand(UserInterface.java:148)
+	at carsharing.client.UserInterface.commandLoop(UserInterface.java:41)
+	at carsharing.Main.main(Main.java:14)
+2024-03-06 17:53:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Cannot drop "CAR" because "FK_RENTED_CAR" depends on it; SQL statement:
+DROP TABLE CAR [90107-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:576)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.command.ddl.DropTable.prepareDrop(DropTable.java:98)
+	at org.h2.command.ddl.DropTable.update(DropTable.java:124)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:198)
+	at org.h2.command.Command.executeUpdate(Command.java:251)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:168)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.server.dao.car.CarDaoImpl.dropTable(CarDaoImpl.java:87)
+	at carsharing.client.repositories.CarRepo.dropCarTable(CarRepo.java:42)
+	at carsharing.client.UserInterface.exitCommand(UserInterface.java:148)
+	at carsharing.client.UserInterface.commandLoop(UserInterface.java:41)
+	at carsharing.Main.main(Main.java:14)
+2024-03-07 16:29:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "COMPANY" not found [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3169)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3268)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:352)
+	at carsharing.server.dao.car.CarDaoImpl.getById(CarDaoImpl.java:68)
+	at carsharing.server.dao.customer.CustomerDaoImpl.getAll(CustomerDaoImpl.java:32)
+	at carsharing.client.repositories.CustomerRepo.listCustomers(CustomerRepo.java:24)
+	at carsharing.client.UserInterface.loginAsCustomerCommandLoop(UserInterface.java:52)
+	at carsharing.client.UserInterface.commandLoop(UserInterface.java:39)
+	at carsharing.Main.main(Main.java:14)
+2024-03-07 16:30:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "COMPANY" not found; SQL statement:
+SELECT * FROM CAR WHERE COMPANY=6; [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:163)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:145)
+	at org.h2.expression.condition.Comparison.optimize(Comparison.java:190)
+	at org.h2.command.dml.Select.prepare(Select.java:1209)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:78)
+	at carsharing.server.dao.car.CarDaoImpl.getById(CarDaoImpl.java:62)
+	at carsharing.server.dao.customer.CustomerDaoImpl.getAll(CustomerDaoImpl.java:32)
+	at carsharing.client.repositories.CustomerRepo.listCustomers(CustomerRepo.java:24)
+	at carsharing.client.UserInterface.loginAsCustomerCommandLoop(UserInterface.java:52)
+	at carsharing.client.UserInterface.commandLoop(UserInterface.java:39)
+	at carsharing.Main.main(Main.java:14)
